@@ -5,7 +5,7 @@ Description: Создать коллекцию Qdrant и индексы поле
 from qdrant_client.http import models
 
 from config.variables import COLLECTION_NAME, DISTANCE, VECTOR_SIZE
-from lib.qdrant_client import build_client
+from lib.qdrant import build_client
 
 
 def reset_collection() -> None:
