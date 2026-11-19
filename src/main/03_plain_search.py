@@ -3,7 +3,7 @@ Description: Поиск по сходству без фильтра по мет�
 """
 
 from config.variables import QUERY_TEXT
-from lib.qdrant import search_knowledge
+from src.lib.qdrant import search_knowledge
 from src.utils.formatting import print_hits
 
 

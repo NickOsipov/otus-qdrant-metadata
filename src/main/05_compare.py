@@ -4,7 +4,7 @@ Description: Сравнить выдачу одного запроса с фил
 
 from config.variables import QUERY_TEXT
 from src.lib.filters import shop_returns_current_filter
-from lib.qdrant import search_knowledge
+from src.lib.qdrant import search_knowledge
 from src.utils.formatting import print_hits
 
 
