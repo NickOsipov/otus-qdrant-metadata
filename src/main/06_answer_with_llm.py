@@ -9,7 +9,7 @@ from qdrant_client.http.models import ScoredPoint
 from config.variables import OPENAI_MODEL, QUERY_TEXT
 from src.lib.filters import shop_returns_current_filter
 from src.lib.openai_client import answer_from_context
-from src.lib.qdrant_utils import search_knowledge
+from lib.qdrant_client import search_knowledge
 from src.utils.formatting import format_context, print_hits
 
 

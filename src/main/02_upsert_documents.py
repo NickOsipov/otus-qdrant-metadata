@@ -7,7 +7,7 @@ from qdrant_client.http import models
 from config.variables import COLLECTION_NAME
 from src.lib.documents import DOCUMENTS, passage_text
 from src.lib.embeddings import embed_passages
-from src.lib.qdrant_utils import build_client
+from lib.qdrant_client import build_client
 
 
 def upsert_documents() -> None:
